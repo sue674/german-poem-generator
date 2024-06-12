@@ -6,7 +6,7 @@ h1{
 .container{
     margin: 100px auto;
     max-width: 600px;
-    background:grey;
+
 }
 body {
    background: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
@@ -14,3 +14,57 @@ height: 100vh;
 background-repeat: no-repeat;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+main {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.input-section{
+    background: whitesmoke;
+    padding: 30px 20px;
+    
+   width: 100%;
+   margin: 30px 0;
+}
+
+.instructions {
+    font-size: 17px;
+width: 70%;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 25px;
+    background: whitesmoke
+}
+.submit-button{
+   background: linear-gradient(-225deg,  #2B86C5 0%, #562B7C 52%, #FF3CAC 100%);
+font-size: 17px;
+color: whitesmoke;
+border-radius:25px; 
+border: 2px solid black;
+padding: 12px 20px;
+margin-left: 10px;
+}
+
+.submit-button:hover{
+background: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
+}
+
+.poem-output{
+    background: whitesmoke;
+        padding: 30px 20px;
+        width: 100%;
+        margin: 30px 0;
+        border-left: 3px solid black
+    }
+
+    footer{
+        text-align: center;
+        color: whitesmoke;
+        font-size: 13px;
+    }
+    a{
+        color:whitesmoke
+    
+    }
+    a:hover{
+        color: #FF3CAC
+    }
