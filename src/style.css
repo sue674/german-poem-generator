@@ -56,6 +56,10 @@ background: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
         border-left: 3px solid black
     }
 
+    .poem-output strong{
+        color: black
+    }
+
     footer{
         text-align: center;
         color: whitesmoke;

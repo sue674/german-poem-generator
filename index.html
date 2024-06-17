@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KI Gedichte</title>
     <link rel="stylesheet" href="src/style.css"></style>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
@@ -14,7 +15,7 @@
     <main>
       <div class="input-section">
       <form id="poem-generator-form">
-        <input class ="instructions" type="text" placeholder="Enter the topic of the poem" autofocus required/>
+        <input class ="instructions" id="user-instruction" type="text" placeholder="Enter the topic of the poem" autofocus required/>
         <input class="submit-button" type="submit" />
       </form></div>
       <div class="poem-output" id="poem"> 
