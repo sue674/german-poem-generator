@@ -59,7 +59,21 @@ background: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
     .poem-output strong{
         color: black
     }
-
+.hidden{
+    display: none;
+}
+        .generating {
+            animation: blinker 1s linear infinite;
+        }
+    
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+small{
+    opacity: 0.6
+}
     footer{
         text-align: center;
         color: whitesmoke;
